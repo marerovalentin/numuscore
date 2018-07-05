@@ -445,10 +445,10 @@ void BitcoinGUI::createToolBars()
     toolbar->setObjectName("tabs");
     // NumusCrypto task 4
     toolbar->setStyleSheet("QToolButton { color: #ffffff; }"
-                           "QToolButton:hover { background-color: #5282C2; border: none; padding-top: 3px; padding-bottom: 3px; }"
+                           "QToolButton:hover { background-color: #595959; border: none; padding-top: 3px; padding-bottom: 3px; }"
                            "QToolButton:checked { background-color: #1C4478; border: none; padding-top: 3px; padding-bottom: 3px; }"
                            "QToolButton:pressed { background-color: #1C4478; border: none; padding-top: 3px; padding-bottom: 3px; }"
-                           "#tabs { color: #ffffff; background-color: #1768AC; border: none; padding-top: 0px; padding-bottom: 0px; }");
+                           "#tabs { color: #ffffff; background-color: #595959; border: none; padding-top: 0px; padding-bottom: 0px; }");
 
     QLabel* header = new QLabel();
     header->setMinimumSize(142, 142);

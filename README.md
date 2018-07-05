@@ -6,7 +6,7 @@ PoW Algo - Skein
 
 Reward Scheme:
 
-// Sunrise Release (Current)
+// Sunrise Release
 100 000 - 150 000 | 10 NMS ~30d
 
 // Rhizocarpon Release (Pure POS)
@@ -16,21 +16,24 @@ Reward Scheme:
 300 000 - 350 000 | 3 NMS ~30d
 350 000 - 400 000 | 2 NMS ~30d
 
-// Harvest Moon Release (Hybrid POW/POS)
-POW Return (MN Will receive 85% of POW and POS block rewards)
-400 000 - 500 000 | POW 4 NMS / POS 1 NMS ~60d 
-500 000 - 600 000 | POW 3 NMS / POS 1 NMS ~60d 
-600 000 - 700 000 | POW 2 NMS / POS 0.5 NMS ~60d
+// Bryopsida Release (temporary release Hybrid POW/POS)
+POW Return (MN Will receive 75% of POS block rewards)
+400 000 - 500 000 | POW 1.5 NMS / POS 1 NMS ~60d 
 
-// Dallia Release (Hybrid POW/POS, Reward plan will be reworked)
-700 000 - 1 300 000 | POW 1 NMS / POS 0.5 NMS ~ 180d
+
+// Harvest Moon Release (POW only , Reward plan will be reworked)
+500 000 - 600 000 | POW 1 NMS ~60d 
+600 000 - 700 000 | POW 0.75 NMS ~60d
+
+// Dallia Release (POW only)
+700 000 - 1 300 000 | POW 0.5 NMS  ~ 180d
 
 Maximum Amount of Coins: 6 500 000 NMS
 
 Masternode Collaterial - 5 000 NMS.
 Masternodes Rewards:
-0 - 400 000 | 75% of POS Blocks
-> 400 000   | 85% of POW/POS Blocks
+0 - 700 000 | 75% of POS Blocks
+
 
 Block Spacing: 45 Seconds
 Diff Retarget: 5 Blocks

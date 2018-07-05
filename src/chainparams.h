@@ -69,6 +69,7 @@ public:
     virtual const vector<CAddress>& FixedSeeds() const = 0;
     int RPCPort() const { return nRPCPort; }
     int LastPOWBlock() const { return nLastPOWBlock; }
+    int POWRestartBlock() const { return nPOWRestartBlock; }
     int POSStartBlock() const { return nPOSStartBlock; }
     int PoolMaxTransactions() const { return nPoolMaxTransactions; }
     std::string DarksendPoolDummyAddress() const { return strDarksendPoolDummyAddress; }
@@ -89,6 +90,7 @@ protected:
     vector<CDNSSeedData> vSeeds;
     std::vector<unsigned char> base58Prefixes[MAX_BASE58_TYPES];
     int nLastPOWBlock;
+    int nPOWRestartBlock;
     int nPOSStartBlock;
     int nPoolMaxTransactions;
     std::string strDarksendPoolDummyAddress;

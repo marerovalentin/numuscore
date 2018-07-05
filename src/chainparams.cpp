@@ -110,6 +110,7 @@ public:
         strDarksendPoolDummyAddress = "9frEPbxv2ANZzrViEqTCWaBL8S63FQHz9s";
         // Morpheus Task 3
         nLastPOWBlock = 100000;
+        nPOWRestartBlock = 400001;
         nPOSStartBlock = 100;
     }
 
