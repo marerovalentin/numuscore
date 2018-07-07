@@ -1,4 +1,4 @@
-// Copyright (c) 2010 Satoshi Nakamoto
+96dbf7bcd01c2d97621e8e9a7a23afc48ddc37ecba68a697f1890ad95f5a253a// Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -110,7 +110,7 @@ public:
         strDarksendPoolDummyAddress = "9frEPbxv2ANZzrViEqTCWaBL8S63FQHz9s";
         // Morpheus Task 3
         nLastPOWBlock = 100000;
-        nPOWRestartBlock = 400001;
+        nPOWRestartBlock = 405001;
         nPOSStartBlock = 100;
     }
 
